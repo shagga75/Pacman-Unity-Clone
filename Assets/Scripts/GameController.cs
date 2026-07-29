@@ -1,11 +1,18 @@
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+namespace BitManSatChase
 {
-    [SerializeField] private SpawnController spawnController; // Control spawning of all game objects
-    void Start()
+    public class GameController : MonoBehaviour
     {
-        spawnController.SpawnPlayer();
-    }
+        [SerializeField] private SpawnController spawnController; // Control spawning of all game objects
+        void Start()
+        {
+            spawnController.SpawnPlayer();
+            spawnController.SpawnAltcoin(SpawnController.AltcoinType.ETH);
+            spawnController.SpawnAltcoin(SpawnController.AltcoinType.ADA);
+            spawnController.SpawnAltcoin(SpawnController.AltcoinType.SOL);
+            spawnController.SpawnAltcoin(SpawnController.AltcoinType.DOGE);
+        }
 
+    }
 }

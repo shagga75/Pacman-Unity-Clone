@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3772535424281234245}
   - component: {fileID: 2683495950404720709}
   m_Layer: 0
-  m_Name: pacman_0
+  m_Name: bitman_0
   m_TagString: PlayerSprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 544951597256438436}
   - component: {fileID: 5795034672633165955}
   m_Layer: 0
-  m_Name: Player
+  m_Name: BitMan
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      orangeGhost_0: 6166928977712963422
+      orangeGhost_1: -7717183363203288705
+      orangeGhost_2: 8298844429252058474
+      orangeGhost_3: -5159204871249844441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
